@@ -53,22 +53,77 @@
 
           <h2>Nova notícia<a href="#" class="badge badge-danger">Importante!</a></h2>
 
-          <div class="btn-group" role="group" aria-label="Exemplo básico">
-            <button type="button" class="btn btn-sucess">Esquerda</button>
-            <button type="button" class="btn btn-secondary">Meio</button>
-            <button type="button" class="btn btn-primary">Direita</button>
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div width="200px" class="carousel-item active">
+                <img class="d-block w-100" src="img/carousel3.png" alt="Primeiro Slide">
+              </div>
+              <div hi width="200" class="carousel-item">
+                <img class="d-block w-100" src="img/carousel1.png" alt="Segundo Slide">
+              </div>
+              <div class="carousel-item">
+                <img width="200" class="d-block w-100" src="img/carousel2.png" alt="Terceiro Slide">
+              </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
           </div>
 
-          <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="img/logo.png" alt="Imagem de capa do card">
-            <div class="card-body">
-              <h5 class="card-title">Ésley Barbosa</h5>
-              <p class="card-text">Esley é estudando de engenharia da computacao e desnvolvedor junior na empresa INEA.</p>
-              <a href="#" class="btn btn-primary">Visitar</a>
+          
+          <br>
+          
+          <p>
+            <button class="btn btn-primary" data-toggle="collapse" data-target="#minhadiv"> Botão collapse</button>
+          </p>
+          <div class="collapse" id="minhadiv">
+            <div class="card" style="width: 18rem;">
+              <img class="card-img-top" src="img/logo.png" alt="Imagem de capa do card">
+              <div class="card-body">
+                <h5 class="card-title">Ésley Barbosa</h5>
+                <p class="card-text">Esley é estudando de engenharia da computacao e desnvolvedor junior na empresa INEA.</p>
+                <a href="#" class="btn btn-sucess">Saiba mais</a>
+  
+                <div class="btn-group" role="group" aria-label="Exemplo básico">
+                  <button type="button" class="btn btn-success">Esquerda</button>
+                  <button type="button" class="btn btn-secondary">Meio</button>
+                  <button type="button" class="btn btn-primary">Direita</button>
+                </div>
+  
+              </div>
             </div>
           </div>
+        
+          <br>
+          <br>
+          <br>
+          <br>
+
+
+
+
+
+
 
     </div>
+
+
+
+
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
